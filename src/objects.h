@@ -89,11 +89,3 @@ class object
 
 };
 
-int main(void)
-{
-
- printf("Planetoid Rescue Copyright 2012 Unincorporated Media\n");
-
- return 0;
-
-}

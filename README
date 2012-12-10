@@ -1,3 +1,15 @@
 Planetoid Rescue
 
 Planetoid Rescue is an open source 3D flying game from Unincorporated Media.
+
+Planetoid Rescue is Copyright 2012 Unincorporated Media
+
+Art assets are released under the Creative Commons CC BY-SA
+
+Object code and source code are released under the GNU GPL. See LICENSE for details.
+
+The file "planet" in the parent directory is a 32-bit Linux exicutible
+
+To compile the program with GCC type "g++ src/planet.cpp -o planet"
+
+You can find us on both GitHub and IndieDB
