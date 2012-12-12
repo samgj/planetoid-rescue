@@ -13,3 +13,7 @@ The file "planet" in the parent directory is a 32-bit Linux exicutible
 To compile the program with GCC type "g++ src/planet.cpp -o planet"
 
 You can find us on both GitHub and IndieDB
+
+If contributing pull form and push to testing
+
+Use master for general downloading or playing
