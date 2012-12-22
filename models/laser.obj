@@ -1,0 +1,11 @@
+# Blender v2.65 (sub 0) OBJ File: ''
+# www.blender.org
+mtllib laser.mtl
+o laser_Plane
+v 0.000000 0.000000 1.000000
+v -1.000000 0.000000 1.000000
+v 1.000000 0.000000 -1.000000
+v -1.000000 0.000000 -1.000000
+usemtl laser
+s off
+f 2 1 3 4
