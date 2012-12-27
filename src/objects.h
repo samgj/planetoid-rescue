@@ -87,5 +87,43 @@ class object
 
   ai intel; //The AI of the object. Use player for PCs
 
+ void objectcollide(void)
+ {
+  //This function is used when two objects collide
+
+  if( distance(loc[], object.loc[]) <= radius + object.radius ) //if the two objects are with in each other's radius
+  {
+
+   if( explodes == true ) //if this object can explode
+   {
+
+    intel = none; //explosions can't think
+
+    model = "models/explode.obj"; //set it to the explosion model
+
+    scale = [explodesize, explodesize, explodesize]; //make it the size of the objects explode radius
+
+    explodes = false; //explosions can't explode
+
+    //delete object after 10 seconds
+
+   }
+
+   if( object.explodes == true ) //if the other object can explode
+   {
+
+    object.intel = none;
+
+    object.model = "model/explode.obj";
+
+    object.scale = [object.explodesize, object.explodesize, object.explodesize]
+
+    object.explodes = false;
+
+    //delete object after 10 seconds
+
+   }
+  }
+ }
 };
 
