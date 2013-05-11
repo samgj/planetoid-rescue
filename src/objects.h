@@ -1,7 +1,5 @@
 //Source code for Planetoid Rescue from Unincorporated Games
 
-#include <stdio.h>
-
 ///////////////////////////////////////
 //Copyright 2012 Unincorporated Media//
 ///////////////////////////////////////
